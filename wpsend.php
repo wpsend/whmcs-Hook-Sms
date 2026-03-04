@@ -2,7 +2,7 @@
 /**
  * WPSend VIP Master Hub (Full GitHub Integrated)
  * GitHub Repo: https://github.com/wpsend/whmcs-Hook-Sms
- * Version: 2.1.0
+ * Version: 2.1.1
  */
 
 if (!defined("WHMCS")) die("Access denied");
@@ -15,7 +15,7 @@ if (!function_exists('wpsend_config')) {
         return [
             'name' => 'WPSend VIP Hub',
             'description' => 'GitHub-Driven SMS Master Controller (Auto-Sync Version)',
-            'version' => '2.1.0',
+            'version' => '2.1.1',
             'author' => 'WPSend.org',
             'fields' => [
                 'api_key' => ['FriendlyName' => 'API Key', 'Type' => 'text'],
@@ -75,7 +75,7 @@ if (!function_exists('wpsend_config')) {
 
     function wpsend_output($vars) {
         wpsend_activate();
-        $currentCoreV = '2.1.0'; // WHMCS-এ থাকা বর্তমান ভার্সন
+        $currentCoreV = '2.1.1'; // WHMCS-এ থাকা বর্তমান ভার্সন
         $hooksDir = __DIR__ . '/hooks/';
 
         // ১. মেইন ফাইল আপডেট চেক (GitHub থেকে wpsend.php এর ভার্সন রিড করা)
