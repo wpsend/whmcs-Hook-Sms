@@ -2,7 +2,7 @@
 /**
  * Hook Name: Client Login SMS Alert
  * Description: Sends an SMS to client and admin upon successful login.
- * Version: 1.1.0
+ * Version: 1.1.1
  * Tags: {name}, {email}, {device}, {ip}, {location}, {time}
  */
 
